@@ -17,15 +17,11 @@ PODS:
     - OLMKit/olmcpp (= 2.2.2)
   - OLMKit/olmc (2.2.2)
   - OLMKit/olmcpp (2.2.2)
-  - Realm (2.4.4):
-    - Realm/Headers (= 2.4.4)
-  - Realm/Headers (2.4.4)
   - SwiftMatrixSDK (0.7.9):
     - AFNetworking (~> 3.1.0)
 
 DEPENDENCIES:
   - OLMKit
-  - Realm
   - SwiftMatrixSDK (from `https://github.com/aapierce0/matrix-ios-sdk.git`, commit `ae745701478220480a652ce1723c6c40b1c8d769`)
 
 EXTERNAL SOURCES:
@@ -41,9 +37,8 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   OLMKit: b9d8c0ffee9ea8c45bc0aaa9afb47f93fba7efbd
-  Realm: 5a280a1f5a9a3c267bebf4f41ee47911137703d7
   SwiftMatrixSDK: 2eb7cf817445f02f5ab5bc056813d2b4a7652f75
 
-PODFILE CHECKSUM: fe48fff2ec41463c2da90c044e97fdf3c2ce410e
+PODFILE CHECKSUM: 15bfd25f3592c1de5fc6f4999f96f10c6766dea8
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.2.1
