@@ -26,7 +26,7 @@ extension NSTextField {
 extension String {
     func height(forWidth width: CGFloat, withFont font: NSFont!) -> CGFloat {
         let size = CGSize(width: width, height: 0)
-        let attributes = [NSFontAttributeName: font]
+        let attributes:[String : Any]? = [NSFontAttributeName: font]
         let boundingRect = (self as NSString).boundingRect(with: size, options: [.usesLineFragmentOrigin, .usesFontLeading], attributes: attributes)
         return boundingRect.height
     }
@@ -172,7 +172,7 @@ class ViewController: NSViewController, RoomChangedDelegate, MatrixSessionManage
         }
         
         room.state.members.forEach { (member) in
-            print(member.displayname ?? member.userId)
+            print(member.displayname ?? member.userId!)
         }
     }
 

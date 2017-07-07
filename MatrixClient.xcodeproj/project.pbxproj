@@ -10,7 +10,6 @@
 		475674480C5CBA1568E879BA /* Pods_MatrixClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF77E14C4FD9A892D64EE2C0 /* Pods_MatrixClient.framework */; };
 		C60805811E54E6E9005387D3 /* CreateRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60805801E54E6E9005387D3 /* CreateRoomViewController.swift */; };
 		C60805861E551211005387D3 /* JoinRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60805841E551211005387D3 /* JoinRoomViewController.swift */; };
-		C64D49DA1E37D27A006D9B9B /* WindowWithDrawer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C64D49D91E37D27A006D9B9B /* WindowWithDrawer.storyboard */; };
 		C67872D61E31426F00E67E5D /* SidebarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67872D51E31426F00E67E5D /* SidebarController.swift */; };
 		C683F4981E54DA3600F8D19B /* RoomManagement.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C683F4971E54DA3600F8D19B /* RoomManagement.storyboard */; };
 		C69051D21E354DDA0058ECFA /* LoginSheet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69051D11E354DDA0058ECFA /* LoginSheet.storyboard */; };
@@ -47,7 +46,6 @@
 		C63A81F41E300B4A00F44A88 /* MatrixSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MatrixSDK.framework; path = "../../../Library/Developer/Xcode/DerivedData/MatrixClient-bcgobsyfiagdnbbbvzdcmzffkena/Build/Products/Debug/MatrixSDK/MatrixSDK.framework"; sourceTree = "<group>"; };
 		C63A81F51E300B4A00F44A88 /* OLMKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OLMKit.framework; path = "../../../Library/Developer/Xcode/DerivedData/MatrixClient-bcgobsyfiagdnbbbvzdcmzffkena/Build/Products/Debug/OLMKit/OLMKit.framework"; sourceTree = "<group>"; };
 		C63A81F61E300B4A00F44A88 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "../../../Library/Developer/Xcode/DerivedData/MatrixClient-bcgobsyfiagdnbbbvzdcmzffkena/Build/Products/Debug/Realm/Realm.framework"; sourceTree = "<group>"; };
-		C64D49D91E37D27A006D9B9B /* WindowWithDrawer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WindowWithDrawer.storyboard; sourceTree = "<group>"; };
 		C67872D51E31426F00E67E5D /* SidebarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidebarController.swift; sourceTree = "<group>"; };
 		C683F4971E54DA3600F8D19B /* RoomManagement.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RoomManagement.storyboard; sourceTree = "<group>"; };
 		C69051D11E354DDA0058ECFA /* LoginSheet.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginSheet.storyboard; sourceTree = "<group>"; };
@@ -149,7 +147,6 @@
 				C683F4971E54DA3600F8D19B /* RoomManagement.storyboard */,
 				C69051D11E354DDA0058ECFA /* LoginSheet.storyboard */,
 				C6CC8DCF1E2A859F006C231F /* Info.plist */,
-				C64D49D91E37D27A006D9B9B /* WindowWithDrawer.storyboard */,
 			);
 			path = MatrixClient;
 			sourceTree = "<group>";
@@ -255,7 +252,6 @@
 				C6CC8DCE1E2A859F006C231F /* Main.storyboard in Resources */,
 				C69051D21E354DDA0058ECFA /* LoginSheet.storyboard in Resources */,
 				C683F4981E54DA3600F8D19B /* RoomManagement.storyboard in Resources */,
-				C64D49DA1E37D27A006D9B9B /* WindowWithDrawer.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
